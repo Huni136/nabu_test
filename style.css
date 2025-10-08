@@ -1,0 +1,145 @@
+.nemtom{
+    width: 20%;
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+} 
+
+.asd{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+#newNote{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #EBEBA7;
+}
+
+#newNote:hover{
+    background-color:#D4A25B;
+    transition-duration: 0.25s;
+}
+
+#newNote svg{
+    width: auto;
+    height: auto;
+    max-height: 65px;
+    max-width: 65px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#popupC{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background-color: #D4A25B;;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: left;
+}
+
+#popupC h1{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    background-color: wheat;
+}
+
+#entry{
+    display: flex;
+    gap: 5%;
+}
+
+#moodC{
+    width: 40%;
+    height: 200px;
+    border: solid 2px black;
+    text-align: left;
+}
+
+#entry-text{
+    resize: none;
+    width: 55%;
+    height: 200px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 4px dashed #333;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 1em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 1em;
+}
+
+.divider span {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.prevText{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#entrylist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
